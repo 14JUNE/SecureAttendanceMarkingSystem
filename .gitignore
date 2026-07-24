@@ -1,0 +1,43 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyc
+
+# Personal data - Face images (users add their own)
+faces/*.jpg
+faces/*.jpeg
+faces/*.png
+
+# Student records (contains PII)
+students.json
+
+# Generated attendance records
+attendance/*.csv
+attendance/*.bak
+
+# Security logs
+logs/*.txt
+
+# Screenshots and unknown captures
+screenshots/
+unknown/
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project duplicates
+SmartAttendence/
